@@ -1,0 +1,153 @@
+body{display: grid; 
+    grid-template-columns:1fr 1fr;
+   background-color:wheat;
+   margin-top: 0;
+    }
+
+
+.main1{display: flex;
+justify-content:center;
+align-items:center;
+padding-top: 60px;}
+
+.main2{display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.header{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom:-30px;
+    padding-bottom: 35px;
+    
+    background-color: white;
+    background-image: url(..//imagenes/logologo.jpg);
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+   
+.main3{margin-top: 60px;}
+
+
+.main{text-align: center;
+    margin-top: 100px; 
+    color:rgb(22, 21, 21); 
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style:oblique;
+    line-height:30px;
+    letter-spacing:5px;
+    text-transform:initial;
+    text-align:center;
+    text-indent:30px;
+    }
+    .whatsapp{
+        display: block;
+        position: fixed;
+        z-index: 9999999;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        border-radius:100px 
+        
+        }
+.tabla1{background-color: white;
+    border-color: black;}
+
+    .tabla2{background-color: wheat;}
+
+    .tabla3{background-color:white;}
+
+    .tablita{background-color:wheat;
+    border-bottom:wheat;}
+
+    .aside{ margin-top: 60px;
+    }
+   
+    .contenedor{display: grid;
+    grid-template-columns: 1fr;
+}
+.sinaside{grid-column-start: 1;
+    grid-column-end: 3}
+
+
+    .cajas{display: flex;
+flex-direction: column;}
+
+.tamaño{height: 400px;}
+
+
+
+.caja{width: 300px;
+margin-top: 20px;}
+
+.caja1{margin-block-start: 10px;
+   font-size: 12px;
+}
+.ca{font-size: 20px;}
+.cajacaja{ position: relative;
+    left: 12%;
+    margin-top: 20px;    
+    margin-bottom: 20px;}
+
+.cajon{ position:inherit;
+   left: 12%;
+    margin-top: 20px;
+margin-bottom: 20px;}
+
+.caj{
+font-size: 12px;}
+
+.promos{
+margin-top: 20px;}
+
+.video{margin-top: 450px;}
+
+.horario{margin-top: 25px;
+    margin-bottom: 250px;
+    margin-left: 30px;
+margin-right: 0px;}
+
+.marger{margin-top: 300px;}
+
+.footer{text-align: center;
+    margin-top: 45px; 
+    color:rgb(22, 21, 21); 
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-style:oblique;
+    line-height:30px;
+    letter-spacing:5px;
+    text-transform:initial;
+    text-align:center;
+    text-indent:30px;
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    }
+
+    .texto{padding: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        }
+
+.imagene1{ position: relative; left: 40%;}
+    @media(min-width:321px)
+    {.body{background-color:wheat; grid-template-columns: 4fr 1fr;}
+    .contenedor{grid-template-columns: 1fr;}
+.cajacajacaja{position: relative;left:18%;}}
+    @media(min-width:769px)
+    {.body{background-color:wheat ; grid-template-columns:5fr 1fr;} 
+    .contenedor{grid-template-columns: 1fr 1fr 1fr;};
+    .cajon{position: inherit;left: 20%;}
+   .cajacaja{position: inherit;left: 15%;};
+   
+}
